@@ -1,7 +1,6 @@
 #navbar {
   background: black;
   font-size: 50px;
-  color: white;
   z-index: 100;
 }
 
@@ -31,11 +30,20 @@
 }
 
 .container {
-  background-color: red;
+  background-color: ;
 }
 
-.collapse navbar-collapse {
+.nav-link {
   list-style: none;
   position: relative;
   float: left;
+  color: white !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+body {
+  background-color: black !important;
 }
