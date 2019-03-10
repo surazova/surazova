@@ -45,7 +45,7 @@
 }
 
 body {
-  background-color: black !important;
+  background-color: grey !important;
 }
 
 /*Horizontal Scrolling*/
@@ -59,8 +59,8 @@ body {
 }
 
 .card-image-top {
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
 }
 .p {
   background-color: black;
@@ -78,7 +78,7 @@ body {
 }
 
 .scrolling-wrapper {
-  height: 1500px;
+  height: 15000px;
   padding: 100px;
   width: 100%;
   -webkit-overflow-scrolling: touch;
