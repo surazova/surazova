@@ -49,31 +49,41 @@ body {
 }
 
 /*Horizontal Scrolling*/
-
-.projects {
+.scrolling-wrapper {
   overflow-x: scroll;
-  overflow-y: scroll;
-  white-space: hidden;
-
-  .card {
-    display: inline-block;
-  }
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.scroll {
+  display: inline-block;
 }
 
-.projects-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-
-  .card {
-    flex: 0 0 auto;
-    margin-right: 3px;
-  }
+.card-image-top {
+  width: 500px;
+  height: 500px;
+}
+.p {
+  background-color: black;
+  color: rgb(156, 22, 22);
 }
 
-.card {
-  border: 1px solid white;
-  width: 150px;
-  height: 75px;
+.scroll {
+  border: hidden;
+  width: 500px;
+  height: 800px;
   background: black;
+
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.scrolling-wrapper {
+  height: 750px;
+  padding: 100px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+-webkit-scrollbar {
+  display: none;
 }
