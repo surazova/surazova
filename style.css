@@ -47,3 +47,33 @@
 body {
   background-color: black !important;
 }
+
+/*Horizontal Scrolling*/
+
+.projects {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  white-space: hidden;
+
+  .card {
+    display: inline-block;
+  }
+}
+
+.projects-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+  }
+}
+
+.card {
+  border: 1px solid white;
+  width: 150px;
+  height: 75px;
+  background: black;
+}
