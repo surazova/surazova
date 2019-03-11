@@ -87,3 +87,20 @@ body {
 -webkit-scrollbar {
   display: none;
 }
+
+.card {
+  height: 500px;
+  border: hidden !important ;
+  margin: 20px;
+}
+
+.container:hover {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scaled(0.98);
+  box-shadow: none;
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0, 125);
+}
