@@ -104,3 +104,6 @@ body {
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0, 125);
 }
+h1 {
+  justify-content: center;
+}
