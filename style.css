@@ -94,6 +94,11 @@ body {
   margin: 20px;
 }
 
+.card-body {
+  color: red;
+  background-color: black;
+  background: transparent;
+}
 .container:hover {
   filter: blur(3px);
   opacity: 0.5;
