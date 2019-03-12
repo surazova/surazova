@@ -48,58 +48,32 @@ body {
   background-color: grey !important;
 }
 
-/*Horizontal Scrolling*/
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-.scroll {
-  display: inline-block;
+.card-image-top {
+  width: 400px;
+  height: 500px;
+  object-fit: scale-down;
 }
 
-.card-image-top {
-  width: 300px;
-  height: 300px;
+img {
+  height: 400px;
+  width: 600px;
 }
 .p {
   background-color: black;
-  color: rgb(156, 22, 22);
-}
-
-.scroll {
-  border: hidden;
-  width: 500px;
-  height: 800px;
-  background: black;
-
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-.scrolling-wrapper {
-  height: 15000px;
-  padding: 100px;
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-}
-
--webkit-scrollbar {
-  display: none;
 }
 
 .card {
-  height: 500px;
   border: hidden !important ;
   margin: 20px;
 }
 
 .card-body {
   color: red;
-  background-color: black;
-  background: transparent;
+  background-color: transparent;
+  border: 0;
+  border-color: 0;
 }
-.container:hover {
+/*.container:hover {
   filter: blur(3px);
   opacity: 0.5;
   transform: scaled(0.98);
@@ -108,12 +82,19 @@ body {
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0, 125);
-}
+}*/
 h1 {
   justify-content: center;
 }
 
 .container {
   color: white;
+}
+
+.container-about {
+  text-align: center;
+}
+
+.container-end {
   text-align: center;
 }
