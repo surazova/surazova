@@ -150,4 +150,10 @@ col {
     background: black;
     width: 100%;
   }
+
+  #about {
+    height: ;
+    width: 100%;
+    justify-content: left;
+  }
 }
