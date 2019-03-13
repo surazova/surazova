@@ -10,7 +10,7 @@
 
 .logo-container {
   background-color: black;
-  padding: 310px;
+  padding: 275px;
 }
 
 #logo {
@@ -45,7 +45,7 @@
 }
 
 body {
-  background-color: grey !important;
+  background-color: black !important;
 }
 
 .card-image-top {
@@ -55,8 +55,8 @@ body {
 }
 
 img {
-  height: 400px;
-  width: 600px;
+  height: 350px;
+  width: 300px;
 }
 .p {
   background-color: black;
@@ -68,10 +68,11 @@ img {
 }
 
 .card-body {
-  color: red;
-  background-color: transparent;
+  color: white;
+  background-color: black;
   border: 0;
   border-color: 0;
+  opacity: 1;
 }
 /*.container:hover {
   filter: blur(3px);
@@ -84,7 +85,7 @@ img {
   box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0, 125);
 }*/
 h1 {
-  justify-content: center;
+  text-align: center;
 }
 
 .container {
@@ -93,8 +94,14 @@ h1 {
 
 .container-about {
   text-align: center;
+  color: white;
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-bottom: 300px;
 }
 
 .container-end {
   text-align: center;
+  color: white;
+  padding-top: 200px;
 }
