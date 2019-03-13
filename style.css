@@ -1,6 +1,6 @@
 #navbar {
   background: transparent;
-  font-size: 50px;
+  font-size: 25px;
   z-index: 100;
   justify-content: right;
 }
@@ -47,6 +47,7 @@
 
 body {
   background-color: black !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card-image-top {
@@ -96,15 +97,18 @@ h1 {
 .container-about {
   text-align: center;
   color: white;
-  margin-right: 300px;
-  margin-left: 300px;
-  padding-bottom: 300px;
+  margin-right: 400px;
+  margin-left: 400px;
+
+  border: white;
 }
 
 .container-end {
   text-align: center;
   color: white;
-  padding-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: ;
 }
 
 .navbar-toggler,
@@ -118,4 +122,12 @@ h1 {
 i {
   color: white;
   font-size: 45px;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+col {
+  text-align: center;
 }
