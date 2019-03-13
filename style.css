@@ -30,10 +30,6 @@
   transform: rotate(360deg);
 }
 
-.container {
-  background-color: ;
-}
-
 .nav-link {
   list-style: none;
   position: relative;
@@ -99,8 +95,6 @@ h1 {
   color: white;
   margin-right: 400px;
   margin-left: 400px;
-
-  border: white;
 }
 
 .container-end {
@@ -108,7 +102,6 @@ h1 {
   color: white;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: ;
 }
 
 .navbar-toggler,
@@ -124,10 +117,19 @@ i {
   font-size: 45px;
 }
 
-#contact h1 {
+#contact {
   text-align: center;
+  padding-top: 100px;
 }
 
 col {
   text-align: center;
+}
+
+#skills i {
+  font-size: 100px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  margin-right: 10px;
 }
