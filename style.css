@@ -2,6 +2,7 @@
   background: transparent;
   font-size: 50px;
   z-index: 100;
+  justify-content: right;
 }
 
 .navbar-brand {
@@ -104,4 +105,15 @@ h1 {
   text-align: center;
   color: white;
   padding-top: 200px;
+}
+
+.navbar-toggler,
+.navbar sticky-top navbar-light {
+  justify-content: right;
+  color: white !important;
+  background-color: white;
+}
+
+.fas fa-caret-down"{
+  color: white;
 }

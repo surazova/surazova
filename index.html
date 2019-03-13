@@ -31,6 +31,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -47,7 +53,9 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"
+          ><i class="fas fa-caret-down icon-4x"></i
+        ></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -60,8 +68,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-
-          <!--Add favicons for social media/linked in for easy navigation-->
         </ul>
       </div>
     </nav>
@@ -120,7 +126,7 @@
 
     <!--About Section-->
 
-    <div class="container-about" style="justify-content: center;">
+    <div class="container-about" style="justify-content: center;" id="about">
       <h1>About</h1>
       <h1></h1>
       <p>
@@ -141,7 +147,7 @@
     <div class="container">
       <h1>Latest Projects</h1>
       <div class="row">
-        <div class="col">
+        <div class="col" id="projects">
           <div class="card" style="width: 500px">
             <img class="card-img-top" src="plugin.png" />
             <div class="card-body">
@@ -226,7 +232,7 @@
     <br />
 
     <!--Contact Section-->
-    <div class="container">
+    <div class="container" id="contact">
       <div class="row">
         <div class="col">
           Contact
