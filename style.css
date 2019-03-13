@@ -112,8 +112,10 @@ h1 {
   justify-content: right;
   color: white !important;
   background-color: white;
+  font-size: 100px;
 }
 
-.fas fa-caret-down"{
+i {
   color: white;
+  font-size: 45px;
 }
